@@ -1,4 +1,4 @@
-## Script Suppression des utilisateurs post cloture de prestation ##
+## Script Desactivation des utilisateurs post migration ##
 
 $path = "OU=Migration,OU=PRESTA10,DC=esgi-src,DC=ads"
 $prestauser = Get-ADUser -Filter * -SearchBase $path

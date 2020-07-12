@@ -1,3 +1,5 @@
+## Script des Users selon leurs présences  ##
+
 function verification_user([string]$username) {
     Try { 
         Get-ADuser -Identity $username -ErrorAction Stop
