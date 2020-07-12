@@ -1,5 +1,7 @@
-company,department,email,givenname,surname
-PRESTA10,Prestataire,dmichel@presta10.com,Daniel,Michel
-PRESTA10,Prestataire,vlanctot@presta10.com,Virginie,Lanctot
-PRESTA10,Prestataire,hsylvain@presta10.com,Hugh,Sylvain
-PRESTA10,Prestataire,bcourtois@presta10.com,Bertrand,Courtois
+company,department,email,givenname,surname,sam,name,presence
+PRESTA10,Prestataire,hsylvain@presta10.com,Hugh,Sylvain,hsylvain,Hugh Sylvain,1
+PRESTA10,Prestataire,bcourtois@presta10.com,Bertrand,Courtois,bcourtois,Bertrand Courtois,1
+PRESTA10,Prestataire,fmartin@presta10.com,Fabien,Martin,fmartin,Fabien Martin,1
+PRESTA10,Prestataire,abertelette@presta10.com,Aurore,Bertelette,abertelette,Aurore Bertelette,1
+PRESTA10,Prestataire,dmichel@presta10.com,Daniel,Michel,dmichel,Daniel Michel,0
+PRESTA10,Prestataire,vlanctot@presta10.com,Virginie,Lanctot,vlanctot,Virginie Lanctot,0
