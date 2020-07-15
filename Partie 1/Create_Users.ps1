@@ -12,7 +12,7 @@ function verification_user([string]$username) {
 
 
 $list = Import-Csv -Path "C:\Partages\Exploit\CSV_Users_Presta10\Users_List.csv" 
-$groupadmin = "Administrateurs"
+#$groupadmin = "Admins du domaine"
 $group = "Migration"
 
 foreach ($user in $list) {
@@ -44,10 +44,11 @@ foreach ($user in $list) {
             -Path $path `
             -Enabled $true `
             -TrustedForDelegation $false
-    
-            Add-ADGroupMember -Identity $groupadmin -Members $username
+
+
             Add-ADGroupMember -Identity $group -Members $username
-    
+            #Add-ADGroupMember -Identity $groupadmin -Members $group
+            
             Write-Host "L'utilisateur" $user.name " a été créé"
         }
     }
